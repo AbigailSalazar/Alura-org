@@ -5,6 +5,7 @@
     box-sizing: border-box;
     text-align: center;
     font-size: 32px;
+    position: relative;
 }
 
 .team h3{
@@ -19,4 +20,10 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+}
+
+.colorpicker{
+    position: absolute;
+    top :20px;
+    right: 50px;
 }

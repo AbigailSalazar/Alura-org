@@ -1,15 +1,16 @@
-import "./TextField.css"
+import "./Field.css"
 
-const TextFild=(props)=>{
+const Field=(props)=>{
     const placeholderModif=`${props.placeholder}...`
+    const {type = "text"} = props
    
     const setChanges=(e)=>{
         props.setValue(e.target.value)
     }
-   return <div className="text-field">
+   return <div className="field">
         <label>{props.title}</label> 
         <input 
-        type="text"
+        type={type}
         name={props.title}
         placeholder={placeholderModif}
         required={props.required}
@@ -18,4 +19,4 @@ const TextFild=(props)=>{
     </div>
 }
 
-export default TextFild
+export default Field

@@ -1,10 +1,13 @@
 import "./Member.css"
+import {AiFillCloseCircle} from "react-icons/ai"
 
 const Member = (props) => {
-    const {foto,nombre,puesto} = props.data
-    const {primaryColor} = props
+    const {foto,nombre,puesto,id} = props.data
+    const {primaryColor, deleteMember} = props
+    
     return (
         <div className="member">
+            <AiFillCloseCircle className="delete" onClick={() => deleteMember(id)}/>
             <div className="header" style={{ backgroundColor: primaryColor}}>
                 <img src={foto} alt="Foto del colaborador"></img>
             </div>
