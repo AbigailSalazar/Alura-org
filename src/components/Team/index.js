@@ -4,7 +4,7 @@ import "./Team.css"
 
 const Team = (props)=>{
     const {primaryColor, titulo,id}= props.data
-    const {members, deleteMember,updateColor} = props
+    const {members, deleteMember,updateColor,likeMember} = props
 
     return <>
     {
@@ -24,6 +24,7 @@ const Team = (props)=>{
                     key={index}
                     primaryColor={primaryColor}
                     deleteMember={deleteMember}
+                    likeMember = {likeMember}
                 />)}
             </div>
         </section>

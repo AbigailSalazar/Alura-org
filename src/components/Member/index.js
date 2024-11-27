@@ -1,9 +1,9 @@
 import "./Member.css"
-import {AiFillCloseCircle} from "react-icons/ai"
+import {AiFillCloseCircle, AiOutlineHeart, AiFillHeart} from "react-icons/ai"
 
 const Member = (props) => {
-    const {foto,nombre,puesto,id} = props.data
-    const {primaryColor, deleteMember} = props
+    const {foto,nombre,puesto,id,fav} = props.data
+    const {primaryColor, deleteMember,likeMember} = props
     
     return (
         <div className="member">
@@ -14,6 +14,10 @@ const Member = (props) => {
             <div className="info">
                 <h4>{nombre}</h4>
                 <h5>{puesto}</h5>
+                { fav ? <AiFillHeart className = "like" color = "red" onClick = { () => likeMember(id) }/>
+                    :<AiOutlineHeart  className = "like" onClick = { () => likeMember(id) }/>
+                }
+
             </div>
         </div>
     )

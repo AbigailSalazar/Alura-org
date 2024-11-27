@@ -50,3 +50,8 @@
     cursor: pointer;
     fill: #6278F7
 }
+
+.like{
+    cursor: pointer;
+    margin-top: 10px;
+}
