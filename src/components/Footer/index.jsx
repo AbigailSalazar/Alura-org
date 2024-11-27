@@ -8,7 +8,6 @@ const Footer = () => {
                     <img src="/img/github-mark.png" alt="Github" />
                 </a>
             </div>
-            <img src="/img/favicon.png" alt="org" />
             <strong>Desarrollado por Andrea Salazar</strong>
         </footer>
     )
