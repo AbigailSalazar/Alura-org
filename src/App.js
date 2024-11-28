@@ -98,7 +98,7 @@ function App() {
   ])
 
   const toggleShowForm = ()=>{
-    window.scroll({top:0,behavior:"smooth"})
+   window.scroll({top:250,behavior:"smooth"})
     setShowForm(!showForm)
   }
 

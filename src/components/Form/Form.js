@@ -35,7 +35,7 @@ const Form = (props)=>{
     }
 
     return (
-        <section  className="form">
+        <section  className="form" id="orgForm">
            <form onSubmit={sendDataMember}>
             <h2>Rellena este formulario para crear el colaborados</h2>
            <Field title="Nombre" placeholder="Ingresar nombre" required value={nombre} setValue={setNombre} ></Field>
