@@ -2,8 +2,9 @@
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
-    margin: 80px 50px;
-    gap: 20px;
+    flex-direction: row;
+    margin: 50px 50px;
+    gap: 30px;
     flex-wrap: wrap;
 }
 
@@ -21,3 +22,27 @@
     color: #212121;
 }
 
+@media (max-width:640px){
+    .form{
+        margin: 50px 30px;
+        flex-direction: column;
+    }
+    .form form{
+        padding: 8px 30px;
+    }
+
+    .form h2{
+        font-size: 24px;
+    }
+}
+
+
+@media (max-width:1024px){
+    .form form{
+        padding: 8px 50px;
+    }
+
+    .form h2{
+        font-size: 24px;
+    }
+}

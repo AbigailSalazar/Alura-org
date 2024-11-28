@@ -8,7 +8,7 @@ const Footer = () => {
                     <img src="/img/github-mark.png" alt="Github" />
                 </a>
             </div>
-            <strong>Desarrollado por Andrea Salazar</strong>
+            <p>Desarrollado por Andrea Salazar</p>
         </footer>
     )
 }

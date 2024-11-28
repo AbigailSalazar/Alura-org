@@ -3,6 +3,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+    background-color: white;
+    flex-direction: column;
 }
 
 .title{
@@ -11,10 +16,21 @@
     font-weight: 400;
     padding-bottom: 24px;
     border-bottom: 4px solid #6278F7;
+    margin-bottom: 60px;
 }
 
-.orgSection img{
-    position:absolute;
-    right: 20%;
+
+.options{
+    display: flex;
+    align-items: center;
+    position:relative;
+    z-index: 1;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.add{
     cursor: pointer;
+    position: absolute;
 }

@@ -98,6 +98,7 @@ function App() {
   ])
 
   const toggleShowForm = ()=>{
+    window.scroll({top:0,behavior:"smooth"})
     setShowForm(!showForm)
   }
 
@@ -140,12 +141,12 @@ function App() {
   return (
     <div >
       <Header/>
+      <MiOrg showForm={toggleShowForm}></MiOrg>
       {showForm&& <Form 
         teams={teams.map((team)=>team.titulo)}
         addMember={addMember}
         addTeam={addTeam}
       />}
-      <MiOrg showForm={toggleShowForm}></MiOrg>
       {
         teams.map((team) => <Team 
           data={team}
