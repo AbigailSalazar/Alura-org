@@ -1,8 +1,22 @@
-# Getting Started with Create React App
+# 📋 Alura Org  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  **Alura Org** is a single-page application (SPA) designed for managing teams and their members. This simple and functional project was built using **React**, **JavaScript**, and **pure CSS**.  
 
-## Available Scripts
+  <img src="https://github.com/user-attachments/assets/c405efcf-8a15-4c69-baa2-ed1876353aaa" alt="Desktop Screenshot 1" width="45%"> 
+
+## ✨ Features  
+- **Team Management:**  
+  - Create custom teams.  
+  - Add and remove members easily.  
+- **Responsive Design:**  
+  - Fully optimized for both mobile and desktop devices.  
+
+## 💻 Technologies Used  
+- **React**: A JavaScript library for building user interfaces.  
+- **CSS**: For custom styles and responsive design.  
+- **JavaScript**: The main programming language for app logic.
+
+## ⚒ Available Scripts
 
 In the project directory, you can run:
 
@@ -17,7 +31,6 @@ You may also see any lint errors in the console.
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
@@ -26,8 +39,6 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### `npm run eject`
 
@@ -39,32 +50,25 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## 📷 Screenshots
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Desktop View
 
-### Code Splitting
+<div style="display: flex; gap: 10px;"> 
+  <img src="https://github.com/user-attachments/assets/6f6f2d9d-809c-49a3-854d-6232a1a16da5" alt="Desktop Screenshot 1" width="45%"> 
+  <img src="https://github.com/user-attachments/assets/3397e5d0-cf78-4252-8be2-befae813b806" alt="Desktop Screenshot 2" width="45%">
+</div>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Mobile View
 
-### Analyzing the Bundle Size
+<div style="text-align: center;">
+  <img src="https://github.com/user-attachments/assets/380662f6-6f3d-45cb-8346-0263cfaba3dd" alt="Mobile Screenshot" width="30%">
+  <img src="https://github.com/user-attachments/assets/bd85ea23-f544-49ce-b094-288dd958c08a" alt="Mobile Screenshot" width="30%">
+</div> 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## 🚀 Live demo
+You can see  a live example of this aplication [here](https://alura-org-taupe.vercel.app/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
